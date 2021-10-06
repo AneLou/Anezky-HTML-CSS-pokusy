@@ -1,0 +1,95 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* 
+  ------------------------------------------------
+  ------------------------------------------------
+  */
+  @font-face {
+    font-family: mujfont; /* deklarace fontu */
+    src: url("Ephesis-Regular.ttf"); /* propojení na umístění souboru */
+}
+
+
+h1 {
+    color:#aa3d86;
+    font-family: mujfont;
+    font-style:italic;
+    font-size: 80px;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+h2 {
+    color:#aa3d86;
+    font-family: mujfont;
+    font-style:italic;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+
+
+
+p {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+a {
+    font-style:italic;
+    }
+      
+    a:hover {
+         color:#aa3d86b7;
+         }
+      
+header {
+    background-color: #9fabc5;
+    width: 50%;
+    height: 20%;
+    margin:auto;
+    top:0;
+    overflow:auto;
+    padding: 0;
+    margin-top:100; 
+    }
+
+
+
+body {
+background-color: rgb(47, 52, 75);
+}
+
+section {
+    padding: 0px 30px;
+    width: 50%;
+    margin:auto;
+    overflow: auto;
+    }
+      
+        .omne {
+          background-color:#e6e6e6;
+            }
+      
+        .kontakt {
+          background-color:#9fabc5;
+          }
+          .omne img {
+            float:left;
+            overflow:auto;
+            margin-right:20px;
+            margin-bottom:20px;
+            vertical-align: top bottom; 
+            border-radius: 50%;
+          }
